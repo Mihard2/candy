@@ -1,0 +1,74 @@
+.head {
+	min-height: 1010px;
+	background: #fff url(../images/head/bg-head.png) center center no-repeat;
+	background-size: cover;
+	padding-top: 44px;
+	color: #f0f5f9;
+	@include mq(md) {
+		background: #fff url() 0 0 no-repeat;
+	}
+	&-menu {
+		ul {
+			li {
+				display: inline-block;
+				margin-right: 20px;
+				a {
+					font-family: $fontDemi;
+					font-size: 26px;
+					&.icon {
+						display: inline-block;
+						text-align: center;
+						width: 45px;
+						height: 45px;
+						background-color: #fff;
+						color: #000;
+						line-height: 46px;
+						border-radius: 50px;
+						box-shadow: 0px 5px 21px 0px rgba(234, 23, 66, .69);
+					}
+				}
+			}
+		}
+	}
+	&-content {
+		display: flex;
+		margin-top: 82px;
+		.slogan {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			font-size: 44px;
+			line-height: 60px;
+			text-transform: uppercase;
+			h3 {
+				font-family: $fontDemi;
+				.red-text {
+					color: #fc0037;
+				}
+				.yellow-text {
+					color: #e1c329;
+				}
+			}
+		}
+		.columns {
+			margin-top: 85px;
+			&-block{
+				text-align: center;
+				line-height: 80px;
+				img {
+					height: 65px;
+				}
+				p{
+					text-transform: uppercase;
+					font-size: 19px;
+					line-height: 50px;
+					text-align: center;
+					.bold-text {
+						font-size: 40px;
+						font-family: $fontDemi;
+					}
+				}			
+			}
+		}
+	}
+}
