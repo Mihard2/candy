@@ -6,9 +6,12 @@
 @import "fonts/fontello";
 
 /* default*/
+@import "default/mq";
 @import "default/variables";
 @import "default/default";
 
 /* design*/
 
 @import "design/head";
+@import "design/form";
+@import "design/main";

@@ -1,0 +1,277 @@
+.block{
+	&-experience {
+		text-align: center;
+		padding-top: 50px;
+		h3 {
+			font-size: 40px;
+			font-family: $fontDemi;
+			text-transform: uppercase;
+			position: relative;
+			padding-bottom: 30px;
+			&:before {
+				content:"";
+				position: absolute;
+				display: block;
+				left: 47%;
+				top: 100%;
+				background-color:  #2281cb;
+				width: 68px;
+				height: 4px;
+			}
+		}
+		.row {
+			margin-top: 99px;
+			margin-bottom: 30px;
+			div {
+				p {
+					font-family: $fontLight;
+					color:  #1a1933;
+					font-size: 20px;
+					line-height: 30px;
+					text-align: center;
+					text-transform: uppercase;
+					&.color-text {
+						font-family: $fontDemi;
+						font-size: 36px;
+						line-height: 30px;
+						text-align: center;
+						margin-bottom: 41px;
+						&.first {
+							color:  #09b520;
+						}
+						&.second {
+							color:  #d308f2;
+						}
+						&.third {
+							color:  #f7800a;
+						}
+						&.fourth {
+							color:  #5353e3;
+						}
+						&.fifth {
+							color:  #fc1450;
+						}
+						&.sixth {
+							color:  #0fcfd9;
+						}
+						span {
+							font-size: 80px;
+							
+						}
+					}
+				}
+			}
+		}
+
+	}
+	&-founder {
+		background: #fff url(../../images/main/bg-founder.png) center bottom no-repeat;
+		padding-bottom: 207px;
+		.founder-description {
+			img {
+				max-width: 487px;
+				position: relative;
+				left: -2%;
+				float: left;
+				margin-right: 89px;
+				margin-bottom: 40px;
+			} 
+			h2 {
+				font-family: $fontDemi;
+				font-size: 37px;
+				text-transform: uppercase;
+				padding: 39px 0 25px;
+			}
+			h3 {
+				font-family: $fontLight;
+				font-size: 24px;
+				text-transform: uppercase;
+				margin-bottom: 65px;
+			}
+			p {
+				font-family: $fontLight;
+				font-size: 22px;
+				margin-bottom: 15px;
+			}
+			.social_network {
+				margin-top: 57px;
+				line-height: 30px;
+				span {
+					display: inline-block;
+					width: 160px;
+					font-family: $fontLight;
+					font-size: 20px;
+					color: #999;
+					float: left;
+					margin-right: 20px;
+				}
+				ul {
+					li {
+						display: inline-block;
+						margin-left: 30px;
+						a {
+							font-family: $fontDemi;
+							font-size: 32px;
+							&.icon {
+								display: inline-block;
+								text-align: center;
+								width: 60px;
+								height: 60px;
+								background-color: #fff;
+								color: #256dd8;
+								line-height: 61px;
+								border-radius: 50px;
+								box-shadow: 0px 7px 24px 0px rgba(48, 128, 236, 0.78);
+								&-red {
+									color: #e017aa;
+									box-shadow: 0px 7px 24px 0px rgba(185, 83, 227, 0.78);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.photo {
+			margin-top: 89px;
+			img {
+				width: 100%;
+			}
+			p {
+				font-family: $fontLight;
+				font-size: 18px;
+				text-align: center;
+			}
+		}	
+	}
+	&-country {
+		background: #fff url(../../images/main/bg-country-block.png) center top no-repeat;
+		background-size: cover;
+		text-align: center;
+		padding-top: 24px;
+		height: 1250px;
+		h2 {
+			font-family: $fontDemi;
+			font-size: 40px;
+			text-transform: uppercase;
+			margin-bottom: 31px;
+		}
+		h3 {
+			font-family: $fontLight;
+			font-size: 24px;
+			text-transform: uppercase;
+			margin-bottom: 65px;
+		}
+		ol {
+			text-align: left;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			max-height: 900px;
+			li {
+				list-style-type: decimal;
+				font-family: $fontLight;
+				font-size: 18px;
+				color: #000;
+				line-height: 30px;
+			}
+			span {
+				text-transform: uppercase;
+				font-family: $fontDemi;
+				font-size: 24px;
+				line-height: 82px;
+				margin-left: -28px;
+				height: 100%;
+				min-height: 75px;
+				img {
+					width: 30px;
+					height: 30px;
+					margin-right: 19px;
+				}
+			}
+		}
+	}
+	&-presentation {
+		text-align: center;
+		h3 {
+			font-size: 40px;
+			font-family: $fontDemi;
+			text-transform: uppercase;
+		}
+		h5 {
+			font-size: 24px;
+			font-family: $fontLight;
+			margin: 60px 0;
+
+		}
+		.profit {
+			border-width: 5px;
+			border-color:  #fae5ed;
+			border-style: solid;
+			background-color:  #ffffff;
+			width: 100%;
+			.title_text {
+				font-family: $fontDemi;
+				font-size: 24px;
+				margin: 60px 0 50px;
+				text-transform: uppercase;
+				text-align: center;
+			}
+			.img {
+				width: 372px;
+				min-height: 305px;
+				background: url(../../images/main/chocolates_box.png) no-repeat;
+				background-position: -43px -7px;
+				// bottom: 17px;
+				@include mq(md) {
+					background-size: contain;
+				}
+			}
+			p {
+				font-family: $fontLight;
+				font-size: 22px;
+				text-align: left;
+				margin: 10px 0 34px;
+				strong {
+					font-family: $fontDemi;
+					font-size: 36px;
+				}
+				.red_text {
+					font-family: $fontDemi;
+					color:  #e21a42;
+				}
+			}
+		}
+		h4 {
+			font-family: $fontDemi;
+			font-size: 24px;
+			text-transform: uppercase;
+			margin: 80px 0 50px;
+		}
+		.margins {
+			.candy_name {
+				font-family: $fontDemi;
+				font-size: 18px;
+				margin-bottom: 42px;
+			}
+			p {
+				font-size: 16px;
+				font-family: $fontLight;
+				margin-bottom: 36px;
+				strong {
+					font-size: 24px;
+					font-family: $fontBook;
+				}
+			}
+			.col-md-4 {
+				.col-md-6:nth-child(3) {
+					p {
+						strong {
+							color: #e21a42;
+						}
+					}
+				}
+			}
+		}
+	}
+}
